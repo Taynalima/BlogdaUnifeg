@@ -2,85 +2,99 @@
 <html>
 
 <head>
-	<meta charset="utf-8">
+    <meta charset="utf-8">
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/style.css">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>BLOG DA UNIFEG!</title>
 </head>
+
 <body>
     <header>
         <nav class="navbar navbar-light" style="background-color: #e3f2fd;">
-			<div class="container">
-				<div class="navbar-header">
-					<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapse-navbar" aria-expanded="false">
-						<span class="sr-only">Toggle navigation</span>
-						<span class="icon-bar"></span>
-						<span class="icon-bar"></span>
-						<span class="icon-bar"></span>
-					</button>
-				</div>
-				<div class="collapse navbar-collapse" id="collapse-navbar">
-					<ul class="nav navbar-nav">
-						<li>
-							<a href="#sobre-nos">Inicio</a>
-						</li>
-						<li>
-							<a href="#nossos-projetos">Dica dos Veterenos</a>
-						</li>
-						<li>
-							<a href="#depoimentos">O que Rolou</a>
-						</li>
-						<li>
-							<a href="#video">A Unifeg</a>
-						</li>
-						<li>
-							<a href="#contato">Galeria de Lembraças</a>
-						</li>
-					</ul>
-				</div>
-			</div>
+            <div class="container">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapse-navbar" aria-expanded="false">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                </div>
+                <div class="collapse navbar-collapse" id="collapse-navbar">
+                    <ul class="nav navbar-nav">
+                        <li>
+                            <a href="#sobre-nos">Inicio</a>
+                        </li>
+                        <li>
+                            <a href="#nossos-projetos">Dica dos Veterenos</a>
+                        </li>
+                        <li>
+                            <a href="#depoimentos">O que Rolou</a>
+                        </li>
+                        <li>
+                            <a href="#video">A Unifeg</a>
+                        </li>
+                        <li>
+                            <a href="#contato">Galeria de Lembraças</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
         </nav>
         <div class="container banner">
             <div class="imageBannner"></div>
         </div>
     </header>
 
-    <div id="Dicas" class="container">
+    <div class="row bloco">
         <h2>Ultimas Dicas</h2>
+        <article id="">
+            <div class="col-md-7 col-sm-6">
+                <img class="img-responsive col-sm-6" src="img/estudante.jpg" alt="Estudar">
+                <div class="panel-default col-sm-6">
+                    <h4 class="h4Dicas post-title">Como desenvolver o hábito de estudar?</h4>
+                    <p>
+                        Você deve estudar todos os dias por um único motivo: criar o hábito de estudar.
+                        <br/> É preciso desenvolver hábitos novos para que se aprenda habilidades. Por isso, se deseja aprender
+                        violão, precisa praticar todos os dias e fazer disso uma rotina. Se você deseja conhecimento pra
+                        passar na prova do concurso público, precisa desenvolver esse hábito de estudar para melhorar suas
+                        habilidades. E você deve estudar diariamente para que essa rotina seja cada vez mais natural e menos
+                        desgastante.[...]
+                    </p>
+                    <a href="#" class="btn btn-index">Ler mais</a>
+                </div>
+            </div>
+            <footer class="col-md-12 posts-footer">
+            </footer>
+        </article>
+
+        <article id="">
+            <div class="col-md-7 col-sm-6">
+                <img class="img-responsive col-sm-6" src="img/estudar-trabalhar.jpg" alt="Trabalho e Estudo">
+                <div class="panel-default col-sm-6">
+                    <h4 class="h4Dicas post-title">Contatos profissionais ainda na graduação</h4>
+                    <p>A graduação é o primeiro grande passo para entrar no disputado mercado de trabalho, e fazer bons contatos
+                        profissionais ainda na faculdade pode ajudar a se destacar da concorrência.</br>Boas relações aliadas
+                        a um bom currículo acadêmico são um ótimo inicio de carreira, além de todo conhecimento que você
+                        pode adquirir de profissionais experientes para a hora de entrevistas e processos seletivos.[...]
+                    </p>
+                    <a href="#" class="btn btn-index">Ler mais</a>
+                </div>
+            </div>
+        </article>
+
     </div>
-    <div class="row">
-        <div class="posts-content col-md-5">
-          <img class="img-responsive col-sm-6" src="img/estudante.jpg" alt="Estudar">
-        <div class="panel-default col-sm-6">
-           <h3 class="h4Dicas post-title">Como desenvolver o hábito de estudar?</h3>
-            <p class="mini-texto">Você deve estudar todos os dias por um único motivo: criar o hábito de estudar. É preciso desenvolver hábitos novos para que se aprenda habilidades. 
-               Por isso, se deseja aprender violão, precisa praticar todos os dias e fazer disso uma rotina.
-            </p>  
-             <p class="mini-texto">Se você deseja conhecimento pra passar na prova do concurso público, precisa desenvolver esse hábito de estudar para melhorar suas habilidades. 
-               E você deve estudar diariamente para que essa rotina seja cada vez mais natural e menos desgastante.
-            </p> 
-            <p class="mini-texto">             
-               Até algum tempo atrás, acreditava-se que bastavam vinte e um dias fazendo uma tarefa repetidas vezes pra que ela se tornasse um hábito. Porém, estudos recentes mostram que esse tempo é um pouco maior.                    
-            </p>
-       </div>
-       <img class ="img-responsive col-sm-6" src="img/estudar-trabalhar.jpg" alt="Trabalho e Estudo">
-       <div class="panel-default col-sm-6">
-           <h3 class="h4Dicas post-title">Contatos profissionais ainda na graduação!</h3>
-           <p>A graduação é o primeiro grande passo para entrar no disputado mercado de trabalho, e fazer bons contatos profissionais ainda na faculdade pode ajudar a se destacar da concorrência. 
-           </p>
-           <p>Boas relações aliadas a um bom currículo acadêmico são um ótimo inicio de carreira, além de todo conhecimento que você pode adquirir de profissionais experientes para a hora de 
-             entrevistas e processos seletivos.</p>
-       </div>
 
-       </div>
-       </div>
+    <div class="row bloco">
+        <h2>Dicas dos Veterenos</h2>
+        <div class="col-md-7 col-sm-6">
 
-   </section>
-   </div>
-    
+        </div>
+    </div>
 
     <script src="js/jquery.js"></script>
     <script src="js/bootstrap.min.js"></script>
 </body>
+
 </html>

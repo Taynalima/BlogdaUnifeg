@@ -15,3 +15,32 @@ header {
     margin: 0 0 3px;
     padding-bottom: 5px;
 }
+
+.mini-texto{
+    font-size:12px;
+}
+
+.btn-index {
+    border: 1px solid #00BFEC;
+    border-radius: 0;
+    color: #00BFEC;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 10px 30px;
+    font-size: 12px;
+}
+
+.btn-menu {
+    border: 1px solid #00BFEC;
+    color: #00BFEC;
+}
+
+.bloco {
+    margin: 19px;
+    margin-bottom: 10px;
+    padding-top: 25px;
+}
+
+.posts-footer {
+    margin: 10px 0;
+}
